@@ -4,7 +4,7 @@ This project is a Spring Boot-based backend service that provides APIs for manag
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Java 17+
 - Spring Boot
@@ -15,7 +15,7 @@ This project is a Spring Boot-based backend service that provides APIs for manag
 
 ---
 
-## 📦 Features
+## Features
 
 - **User Registration and Login** (JWT-based authentication)
 - **Magazine Management** (CRUD)
@@ -26,7 +26,7 @@ This project is a Spring Boot-based backend service that provides APIs for manag
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@ This project is a Spring Boot-based backend service that provides APIs for manag
 
 ---
 
-## 🐳 Running with Docker Compose
+## Running with Docker Compose
 
 The project includes Docker Compose configuration to run:
 
@@ -60,7 +60,7 @@ The project includes Docker Compose configuration to run:
 
 ---
 
-## ⚙️ Application Configuration
+## Application Configuration
 Will be overidered if ran from Docker compose
 ### `application.properties`
 
@@ -83,7 +83,7 @@ security.jwt.expiration-time=7200000
 
 ---
 
-## 🌐 CORS Configuration
+## CORS Configuration
 
 The Spring Boot app must allow requests from the frontend (`localhost:8085`). Add the following bean in a configuration class and change url to point frontend (e.g., `WebConfig.java`):
 
@@ -104,7 +104,7 @@ public CorsConfigurationSource corsConfigurationSource() {
 
 ---
 
-## 📬 API Collection
+## API Collection
 
 all endpoints:
 
@@ -120,7 +120,7 @@ Tokens are passed as Bearer tokens in headers.
 
 ---
 
-## 📮 Example Request
+## Example Request
 
 ```http
 POST /auth/login HTTP/1.1
@@ -139,7 +139,7 @@ Authorization: Bearer <your-jwt-token>
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under MIT License. Feel free to modify and reuse.
 
